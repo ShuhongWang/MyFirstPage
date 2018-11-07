@@ -1,14 +1,19 @@
 #header
-  background: url("../img/bluecloud.jpg") no-repeat
+  background: url("../img/cookies2.jpg") no-repeat
   background-size: cover
-  height: 400px
+  height: 500px
   color: white
   text-align: center
   //overflow: auto
 
   h1
+    @import url('https://fonts.googleapis.com/css?family=Mali')
     color: white
     text-align: center
+    font-weight: bold
+    font-family: 'Mali', sans-serif
+    font-weight: 900
+    text-shadow: 0 2px 0 rgba(0, 0, 0, 0.07)
 
 .main-nav
   display: flex
@@ -18,19 +23,25 @@
   li
     list-style: none
   a
-    color: $maroon
+    color: #75706B
     display: block
-    border-radius: 4px
-    padding: 15px 30px
+    //border-radius: 4px
+    padding: 10px 20px 
     text-decoration: none
     font-weight: 900
     text-transform: uppercase
+    font-size: 15px
+  a:hover
+    opacity: 0.4
+    background: #75706B
+    color: #210F00
 
-  li:first-child
-    margin-right: auto
-    padding: 10px 0
-    a
-      padding: 0
+
+//  li:first-child
+//  margin-right: auto
+//    padding: 10px 0
+//    a
+//      padding: 0
 
 a.download
   background: white
